@@ -54,6 +54,7 @@ export class BotConnection {
       host: this.config.host,
       port: this.config.port,
       username: this.config.username,
+      auth: 'microsoft',
       plugins: { pathfinder },
     };
 
